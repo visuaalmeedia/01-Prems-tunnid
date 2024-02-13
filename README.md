@@ -4,3 +4,4 @@
 git add .
 git commit -m "kommentar muudatuste kohta"
 git push
+dayum
