@@ -1,0 +1,23 @@
+main {
+    background-color: violet;
+    max-width: 80ch;
+    width: 100%;
+
+}
+
+body {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 1rem;
+
+}
+.card-row {
+display: flex;
+margin: 2rem;
+
+
+
+}
