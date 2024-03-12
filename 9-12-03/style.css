@@ -16,7 +16,11 @@ margin: 1rem;
 
 }
 .card-row {
+    display: grid;
 display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
 margin: 2rem;
 
 }
@@ -35,27 +39,45 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .hero-content {
-    margin: 0 auto;
-    max-width: 75ch;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+display: flex;
+margin: 0 auto;
+max-width: 75ch;
+align-items: center;
+flex: wrap;
+flex-direction: column;
+min-width: 350px;
+max-height: 1000px;
+border: 50px;
+border-radius: 50px;
+background-color: rgb(109, 129, 129);
+
 }
 
 .hero-container {
 
-    margin: 0 auto;
-    width: 75ch;
+margin: 0 auto;
+width: 75ch;
 
 }
 
-.divbox {
+.headerbox {
 display: flex;
 flex: wrap;
 flex-direction: column;
 max-width: 900px;
 min-width: 350px;
 max-height: 1000px;
+border: 50px;
+border-radius: 50px;
+background-color: rgb(109, 129, 129);
+margin: 10px;
+align-items: center;
+
+}
+.divbox {
+display: flex;
+flex: wrap;
+flex-direction: column;
 border: 50px;
 border-radius: 50px;
 background-color: rgb(109, 129, 129);
@@ -69,4 +91,5 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 }
+
 
