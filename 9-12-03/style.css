@@ -1,22 +1,27 @@
 main {
     background-color: rgb(114, 112, 114);
-    max-width: 1200px;
+    max-width: 100%;
     width: 100%;
-
+    max-height: 100%;
+    height: 100%;
+    display: flex;
+align-items: center;
    
 }
 
 body {
 display: flex;
 flex-wrap: wrap;
+background-color: aliceblue;
 justify-content: center;
 align-items: center;
 height: 100vh;
 margin: 1rem;
 
 }
+
 .card-row {
-    display: grid;
+display: grid;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
@@ -26,15 +31,13 @@ margin: 2rem;
 }
 
 img {
-max height: 7rem;
+max-height: 7rem;
 max-width: 10rem;
-
 
 }
 
 p {
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-
 
 }
 
@@ -44,7 +47,6 @@ margin: 0 auto;
 max-width: 75ch;
 align-items: center;
 flex: wrap;
-flex-direction: column;
 min-width: 350px;
 max-height: 1000px;
 border: 50px;
@@ -54,42 +56,19 @@ background-color: rgb(109, 129, 129);
 }
 
 .hero-container {
-
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
 margin: 0 auto;
 width: 75ch;
-
+background-color: aliceblue;
 }
 
-.headerbox {
-display: flex;
-flex: wrap;
-flex-direction: column;
-max-width: 900px;
-min-width: 350px;
-max-height: 1000px;
-border: 50px;
-border-radius: 50px;
-background-color: rgb(109, 129, 129);
-margin: 10px;
-align-items: center;
-
-}
 .divbox {
 display: flex;
-flex: wrap;
-flex-direction: column;
 border: 50px;
 border-radius: 50px;
 background-color: rgb(109, 129, 129);
 margin: 10px;
 align-items: center;
 }
-
-.everythingbox {
-display: grid;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-}
-
-
