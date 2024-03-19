@@ -12,7 +12,7 @@ align-items: center;
 body {
 display: flex;
 flex-wrap: wrap;
-background-color: aliceblue;
+background-color: rgb(89, 162, 40);
 justify-content: center;
 align-items: center;
 height: 100vh;
@@ -23,7 +23,6 @@ margin: 1rem;
 .card-row {
 display: grid;
 display: flex;
-flex-wrap: wrap;
 flex-direction: row;
 justify-content: space-around;
 margin: 2rem;
@@ -45,30 +44,33 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 display: flex;
 margin: 0 auto;
 max-width: 75ch;
-align-items: center;
-flex: wrap;
 min-width: 350px;
 max-height: 1000px;
 border: 50px;
 border-radius: 50px;
-background-color: rgb(109, 129, 129);
+background-color: rgb(94, 118, 73);
+
+}
+
+.crazy-div {
+margin: 2rem;
 
 }
 
 .hero-container {
 display: flex;
-flex-wrap: wrap;
 flex-direction: row;
+flex-wrap: wrap;
 margin: 0 auto;
+max-height: 700px;
 width: 75ch;
-background-color: aliceblue;
+background-color: rgb(101, 155, 60);
 }
 
 .divbox {
-display: flex;
 border: 50px;
 border-radius: 50px;
-background-color: rgb(109, 129, 129);
+background-color: rgb(94, 118, 73);
 margin: 10px;
 align-items: center;
 }
