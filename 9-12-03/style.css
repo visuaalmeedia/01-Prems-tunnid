@@ -54,16 +54,17 @@ background-color: rgb(94, 118, 73);
 
 .crazy-div {
 margin: 2rem;
-
+justify-content: center;
 }
 
 .hero-container {
+    justify-content: center;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 margin: 0 auto;
 max-height: 700px;
-width: 75ch;
+width: 75%;
 background-color: rgb(101, 155, 60);
 }
 
