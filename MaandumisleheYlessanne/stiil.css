@@ -1,0 +1,29 @@
+.header-box {
+display: flex;
+justify-content: space-between;
+
+}
+
+.search-profile {
+display: flex;
+margin: 10px;
+flex-direction: row;
+
+}
+
+.autopilt {
+
+
+}
+
+.searchbar {
+display: flex;
+height: 4rem;
+width: 30rem;
+border-radius: 2rem;
+background-color: rgb(154, 154, 154);
+
+font-size: 23px;
+margin-left: 20px;
+
+}
