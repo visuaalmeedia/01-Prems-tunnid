@@ -11,6 +11,11 @@ flex-direction: row;
 
 }
 
+.autopiltbox {
+max-height: 600px;
+
+}
+
 .autopilt {
 width: 100%;
 
@@ -29,7 +34,19 @@ font-size: 23px;
 
 .audi-name {
 display: flex;
-font-size: 56px;
+font-size: 60px;
+font-style: initial;
 justify-content: space-around;
+margin-bottom: -6rem;
+margin-top: -1rem;
 
 }
+
+.audi-slogan {
+font-style: italic;
+display: flex;
+font-size: 32px;
+justify-content: space-around;
+color: rgb(84, 84, 84);
+}
+
