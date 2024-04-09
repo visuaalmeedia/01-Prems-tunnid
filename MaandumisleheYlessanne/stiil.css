@@ -12,7 +12,7 @@ flex-direction: row;
 }
 
 .autopilt {
-
+width: 100%;
 
 }
 
@@ -24,5 +24,12 @@ border-radius: 2rem;
 background-color: rgb(154, 154, 154);
 
 font-size: 23px;
+
+}
+
+.audi-name {
+display: flex;
+font-size: 56px;
+justify-content: space-around;
 
 }
