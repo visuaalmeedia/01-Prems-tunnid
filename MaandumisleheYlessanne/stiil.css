@@ -11,6 +11,12 @@ width: 100%;
 
 }
 
+section {
+background: url(bg1.jpg) no-repeat;
+background-size: cover;
+height: calc(100vh - 80px);
+}
+
 nav ul {
 float: right;
 margin-right: 20px;
@@ -115,70 +121,3 @@ display: none;
     }
 }
 
-.autopiltbox {
-max-height: 600px;
-
-}
-
-.autopilt {
-width: 100%;
-
-}
-
-.audi-name {
-display: flex;
-font-size: 60px;
-font-style: initial;
-justify-content: space-around;
-margin-bottom: -6rem;
-margin-top: -1rem;
-
-}
-
-.audi-slogan {
-font-style: italic;
-display: flex;
-font-size: 32px;
-justify-content: space-around;
-color: rgb(84, 84, 84);
-}
-
-.buttonholder {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-}
-
-.nupud {
-background-color: rgb(68, 68, 68);
-border-radius: 15px;
-color: rgb(255, 255, 255);
-width: 150px;
-height: 50px;
-
-}
-
-.nupustiil {
-
-    
-}
-
-.container {
-    margin-top: 5rem;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 400px;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-.text-box {
-    margin: 5rem ;
-}
-.image-box {
-    margin: 5rem;
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-}
