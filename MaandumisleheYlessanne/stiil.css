@@ -144,8 +144,8 @@
 }
 
 .container .image-container .image {
-    height: 250px;
-    width: 350px;
+    height: 350px;
+    width: 450px;
     border: 10px solid #5e5e5e;
     box-shadow:  0 5px 15px rgba(0,0,0,.1);
     overflow: hidden;
