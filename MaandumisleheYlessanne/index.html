@@ -25,6 +25,37 @@
     </ul>
    </nav>
 
+<div class="container">
+    <h1>Image Gallery</h1>
+        <div class="image-container">
+            <div class="image"> <img src="Pildid/peamineaudi.avif" alt=""> </div>
+            <div class="image"> <img src="Pildid/audipilt2.jpeg" alt=""> </div>
+            <div class="image"> <img src="Pildid/audipilt3.avif" alt=""> </div>
+        </div>
+
+        <div class="popup-image">
+            <span>&times;</span>
+            <img src="Pildid/peamineaudi.avif" alt="">
+        </div>
+</div>
+
+<script>
+    document.querySelectorAll('.image-container img').forEach(image=>{
+        image.onclick = () =>{
+            document.querySelector('.popup-image').style.display = 'block'; 
+            document.querySelector('.popup-image img').src = image.getAttribute('src');
+        }
+    });
+
+    document.querySelector('.popup-image span').onclick = () =>{
+        document.querySelector('.popup-image').style.display = 'none';
+    }
+</script>
+
+
+
+
+
 <div class="responsive-image-container">
     <img src="Pildid/peamineaudi.avif" alt="full width image" class="full-width-image">
 </div>
