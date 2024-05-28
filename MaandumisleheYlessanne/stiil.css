@@ -207,7 +207,63 @@
 
 .Peatekst p {
     color: aliceblue;
+    margin-left: 5rem;
+    margin-right: 5rem;
     padding: 50px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    gap: 3rem;
+}
+.button-container button {
+    width: 20rem;
+    color: aliceblue;
+    background-color: #333;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-section {
+    margin-bottom: 20px;
+}
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.footer-section p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-section a:hover {
+    text-decoration: underline;
 }
