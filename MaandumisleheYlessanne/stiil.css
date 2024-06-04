@@ -206,10 +206,28 @@
     justify-content: center;
 }
 
+.Peatekst2 {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    background: #3e3e3e;
+    justify-content: center;
+}
+
+
 .Peatekst p {
     color: aliceblue;
     margin-left: 5rem;
     margin-right: 5rem;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.Peatekst2 p {
+    color: aliceblue;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: -3rem;
     padding: 50px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
@@ -228,7 +246,7 @@
     color: aliceblue;
     background-color: #333;
     padding: 10px 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: garamond;
     font-size: 32px;
 }
 
@@ -239,7 +257,7 @@
     position: relative;
     width: 100%;
     bottom: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: light 300;
 }
 .footer-container {
     max-width: 1200px;
@@ -268,3 +286,4 @@
 .footer-section a:hover {
     text-decoration: underline;
 }
+
