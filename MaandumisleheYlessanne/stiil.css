@@ -246,7 +246,7 @@
     color: aliceblue;
     background-color: #333;
     padding: 10px 20px;
-    font-family: garamond;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 32px;
 }
 
@@ -258,6 +258,7 @@
     width: 100%;
     bottom: 0;
     font-family: light 300;
+    font-family: 'Courier New', Courier, monospace;
 }
 .footer-container {
     max-width: 1200px;
